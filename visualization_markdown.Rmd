@@ -1,0 +1,51 @@
+---
+title: "Visualization of SQL Query of King County (Seattle) Housing Data"
+author: "by John Owusu Duah"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Goal of Visualization
+
+The following query was executed in AWS Athena to aggregate the average house prices in King County (Seattle) for the years these houses was constructed:
+
+"SELECT yr_built, ROUND(AVG(price),2) AS "average_house_price"
+FROM king_county_housing_data
+GROUP BY yr_built
+ORDER BY 2 DESC;"
+
+Our goal is to generate insight from this query. The query in AWS Athena returned a ".csv" file with each observation representing the year houses in King County were built with their corresponding aggregated average prices.
+
+## Exploratory Data Analysis (EDA)
+We will take a cursory glance at the first few rows of the results of our query and determine the dimensions of our data. 
+
+```{r}
+athena_query <- read.csv("~/Desktop/IDS 760 Data Engineering Systems/Project_1_SQL_Cloud_Solution/data/awsathenaqueryresults.csv", sep=",")
+head(athena_query)
+```
+```{r}
+dim(athena_query)
+```
+Our data has 117 observations and 2 columns.
+
+## Visualization of Relationship Between the Year a House Was Built and Price
+
+Below is a scatter plot showing the relationship between the year a house was built and price :
+
+```{r}
+library(ggplot2)
+splot_yr_pr <- ggplot(athena_query, aes(yr_built,average_house_price)) + geom_point(alpha=0.7, color="blue")
+splot_yr_pr
+```
+
+The trend from our scatterplot shows that there is association between the price of house in King County and the year in which it was built. While houses with the highest prices are either the oldest or the newest, houses built between 1930 and 1975 have the lowest prices.
+
+This insight raises the following questions which are out of the scope of this project but are worth exploring?
+
+* Could the high price of houses built in the early 1900s be attributable to their historical significance or technology used in their construction? Were these houses maintained better than other houses constructed in other periods of time?
+* Did the great depression and the second world war have any influence on the houses built between 1930 and 1975 or did the owners fail to carry out proper maintenance?

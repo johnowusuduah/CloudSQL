@@ -1,0 +1,1 @@
+id BIGINT, date STRING, price DOUBLE, bedrooms DOUBLE, bathrooms DOUBLE, sqft_living BIGINT, sqft_lot BIGINT, floors INT, waterfront BIGINT, view BIGINT, condition BIGINT, grade BIGINT, sqft_above BIGINT, sqft_basement BIGINT, yr_built BIGINT, yr_renovated BIGINT, zipcode BIGINT, lat DOUBLE, long DOUBLE, sqft_living15 BIGINT, sqft_lot15 BIGINT
