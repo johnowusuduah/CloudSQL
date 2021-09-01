@@ -24,7 +24,7 @@ As an alternative or "quasi transcript" to the demonstration video above, the fo
 [Insert_Image]
 
 6. Since SQL is a relational database, it queries data from tables, so there is the need to create table(s) in AWS Athena. So I clicked "Create table" on the menu bar. I entered the link to the data stored in the afore-mentioned AWS s3 bucket as the source of my data. If it is your first time using AWS Athena, you will be prompted to set up a query result location in your AWS s3 bucket.
-[Insert Image]. 
+[Insert Image] 
 
 7. AWS Athena conveniently allows the creation of tables by entering the matching column names and data types in a bulk manner. AWS Athena has its peculiar data types and you can use this [link](https://docs.aws.amazon.com/athena/latest/ug/data-types.html) for easy referencing.
 [Insert Image]
@@ -34,10 +34,10 @@ As an alternative or "quasi transcript" to the demonstration video above, the fo
 
 9. If the table matches our dataset, we can then run queries on the table without the need for any extra SQL Database Management System. I run the following query to extract the aggregated house prices (rounded to two decimal places) for every year that a house was built:
 
-SELECT yr_built, ROUND(AVG(price),2) AS "average_house_price"
+"SELECT yr_built, ROUND(AVG(price),2) AS "average_house_price"
 FROM king_county_housing_data
 GROUP BY yr_built
-ORDER BY 2 DESC;
+ORDER BY 2 DESC;"
 [Insert Image]
 
 10. After the result of the query is returned, you can download the results as a csv file into your data analysis tool for analysis. 
