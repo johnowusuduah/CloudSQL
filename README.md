@@ -44,4 +44,4 @@ AWS Athena conveniently allows the creation of tables by entering the matching c
 
 10. I imported the dataset in R Studio and carried out the analysis and a one page analyses of the results of the query can be found in the link below:
 
-## [LINK TO ONE PAGE ANALYSES OF QUERY RESULTS]()
+## [LINK TO ONE PAGE ANALYSES OF QUERY RESULTS](https://github.com/johnowusuduah/CloudSQL/blob/main/visualization_markdown.html)
