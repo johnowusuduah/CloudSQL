@@ -1,4 +1,5 @@
 # Data Engineering Systems Cloud SQL Project
+by John Owusu Duah - September 2, 2021
 This project showcases how AWS Athena is used to query a public dataset, in this case, housing data in King County - Seattle hosted on Kaggle. Afterwards, insight will be generated from the results of the query. The scope of the dataset is limited to homes sold between May 2014 and May 2015.
 
 The public dataset can be found at the url below:
