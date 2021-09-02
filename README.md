@@ -25,7 +25,7 @@ As an alternative or "quasi transcript" to the demonstration video above, the fo
 ![Step3](https://user-images.githubusercontent.com/67676957/131928604-582e8e89-df24-48d2-b364-d2b334c1489b.png)
 
 4. Since SQL is a relational database, it queries data from tables, so there is the need to create table(s) in AWS Athena. So I clicked "Create table" on the menu bar. I entered the link to the data stored in the afore-mentioned AWS s3 bucket as the source of my data. If it is your first time using AWS Athena, you will be prompted to set up a query result location in your AWS s3 bucket.
-[Insert Image] 
+[Insert Image]() 
 
 5. AWS Athena conveniently allows the creation of tables by entering the matching column names and data types in a bulk manner. AWS Athena has its peculiar data types and you can use this [link](https://docs.aws.amazon.com/athena/latest/ug/data-types.html) for easy referencing.
 [Insert Image]
