@@ -16,7 +16,7 @@ The link to the video that walks through how exactly this project was carried ou
 As an alternative or "quasi transcript" to the demonstration video above, the following outlines the steps to execute the project.
 
 1. Upload a dataset( into an AWS s3 bucket so that AWS Athena could access it from the cloud. In my this project I uploaded the public dataset into an s3 bucket called "kingcountydata".
-![alt text](https://github.com/johnowusuduah/CloudSQL/issues/1#issue-987241904)
+![](https://github.com/johnowusuduah/CloudSQL/issues/1#issue-987241904)
 
 2. Create a database in AWS Glue. I created "my_housing_database".
 [Insert_Image]
