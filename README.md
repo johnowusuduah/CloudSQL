@@ -44,5 +44,4 @@ ORDER BY 2 DESC;"
 8. After the result of the query is returned, you can download the results as a csv file into your data analysis tool for analysis. 
 [Insert Image]
 
-9. I imported the dataset in Google Colab and carried out the analysis and a one page analyses of the results of the query can be found in the link below:
-[Insert Image]
+9. I imported the dataset in Google Colab and carried out the analysis and a one page analyses of the results of the query can be found in the link [here.]()
