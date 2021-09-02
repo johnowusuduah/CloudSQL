@@ -35,10 +35,10 @@ As an alternative or "quasi transcript" to the demonstration video above, the fo
 
 7. If the table matches our dataset, we can then run queries on the table without the need for any extra SQL Database Management System. I run the following query to extract the aggregated house prices (rounded to two decimal places) for every year that a house was built:
 
->"SELECT yr_built, ROUND(AVG(price),2) AS "average_house_price"
->FROM king_county_housing_data
->GROUP BY yr_built
->ORDER BY 2 DESC;"
+>>"SELECT yr_built, ROUND(AVG(price),2) AS "average_house_price"
+>>FROM king_county_housing_data
+>>GROUP BY yr_built
+>>ORDER BY 2 DESC;"
 [Insert Image]
 
 8. After the result of the query is returned, you can download the results as a csv file into your data analysis tool for analysis. 
