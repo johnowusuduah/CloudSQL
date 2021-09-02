@@ -45,4 +45,4 @@ As an alternative or "quasi transcript" to the demonstration video above, the fo
 8. After the result of the query is returned, you can download the results as a csv file into your data analysis tool for analysis. 
 ![Step8](https://user-images.githubusercontent.com/67676957/131930157-a2561d3e-eb55-40ce-ae25-da71433cb491.png)
 
-9. I imported the dataset in Google Colab and carried out the analysis and a one page analyses of the results of the query can be found in the link [here.]()
+9. I imported the dataset in Google Colab and carried out the analysis and a one page analyses of the results of the query can be found in the link [here.](https://github.com/johnowusuduah/CloudSQL/blob/main/visualization_sqlquery.ipynb)
