@@ -5,7 +5,7 @@ This project showcases how AWS Athena is used to query a public dataset, in this
 The public dataset can be found at the url below:
 https://www.kaggle.com/harlfoxem/housesalesprediction/download
 
-Also, I have uploaded a copy called "kc_house_data" into this repository.
+Also, I have uploaded a copy called ["kc_house_data"](https://github.com/johnowusuduah/CloudSQL/blob/main/kc_house_data.csv) into this repository.
 
 ## Demonstration Video
 This [link](insertYouTubeVideo) to a video that walks through how exactly this project was carried out.
