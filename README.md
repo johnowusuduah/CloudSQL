@@ -19,7 +19,7 @@ As an alternative or "quasi transcript" to the demonstration video above, the fo
 ![Step1](https://user-images.githubusercontent.com/67676957/131927377-71d7b609-1b48-4403-844b-52ac4230835a.png)
 
 2. Create a database in AWS Glue. I created "my_housing_database".
-[Step2](https://user-images.githubusercontent.com/67676957/131928056-d15916d0-5e71-423b-9be5-fbde6f9522c9.png)
+![Step2](https://user-images.githubusercontent.com/67676957/131928056-d15916d0-5e71-423b-9be5-fbde6f9522c9.png)
 
 3. Opened AWS Athena and selected the database I just created.
 [Insert_Image]
