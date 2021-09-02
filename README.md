@@ -28,7 +28,7 @@ As an alternative or "quasi transcript" to the demonstration video above, the fo
 ![Step3.5](https://user-images.githubusercontent.com/67676957/131929222-acf82380-00bc-4f6e-b1ba-751ce1407ab5.png) 
 
 5. AWS Athena conveniently allows the creation of tables by entering the matching column names and data types in a bulk manner. AWS Athena has its peculiar data types and you can use this [link](https://docs.aws.amazon.com/athena/latest/ug/data-types.html) for easy referencing.
-[Step4.5](https://user-images.githubusercontent.com/67676957/131929525-5749aaed-9bd2-49fa-b08d-d3844eb2b176.png)
+![Step4.5](https://user-images.githubusercontent.com/67676957/131929525-5749aaed-9bd2-49fa-b08d-d3844eb2b176.png)
 ![Step5](https://user-images.githubusercontent.com/67676957/131929630-88d45775-0b06-49f8-89d6-5171fc7c9a29.png)
 
 6. After the table is created in AWS Athena, we can preview the table to see if the column names matched the data types just as it does in the original public dataset.
