@@ -1,6 +1,6 @@
 # Data Engineering Systems Cloud SQL Project using AWS Athena
 
-This project showcases how AWS Athena is used to query a public dataset, in this case, housing data in King County - Seattle hosted on Kaggle. Afterwards, insight will be generated from the results of the query. The scope of the dataset is limited to homes sold between May 2014 and May 2015.
+This project showcases how AWS Athena is used to query a public dataset, in this case, housing data in King County - Seattle hosted on Kaggle. Afterwards, the relationship between the average price of house and the year houses were constructed was investigated. The scope of the dataset is limited to homes sold between May 2014 and May 2015.
 
 The public dataset can be found at the url below:
 https://www.kaggle.com/harlfoxem/housesalesprediction/download
@@ -45,4 +45,11 @@ As an alternative or "quasi transcript" to the demonstration video above, the fo
 8. After the result of the query is returned, you can download the results as a csv file into your data analysis tool for analysis. 
 ![Step8](https://user-images.githubusercontent.com/67676957/131930157-a2561d3e-eb55-40ce-ae25-da71433cb491.png)
 
-9. I imported the dataset in Google Colab and carried out the analysis and a one page analyses of the results of the query can be found in the link [here.](https://github.com/johnowusuduah/CloudSQL/blob/main/visualization_sqlquery.ipynb)
+9. I imported the dataset in Google Colab and carried out the analysis and a one page analyses of the results of the query. 
+
+
+## Vizualization 
+The complete analysis of the query results can be found [here.](https://github.com/johnowusuduah/CloudSQL/blob/main/visualization_sqlquery.ipynb)
+
+The relationship between year houses in King County was built and the average prices was explored with a scatterplot.
+![Scatterplot](https://user-images.githubusercontent.com/67676957/131930992-790076ee-269d-4b0c-a017-f1a2c92e7c98.png)
