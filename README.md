@@ -51,5 +51,11 @@ As an alternative or "quasi transcript" to the demonstration video above, the fo
 ## Vizualization 
 The complete analysis of the query results can be found [here.](https://github.com/johnowusuduah/CloudSQL/blob/main/visualization_sqlquery.ipynb)
 
-The relationship between year houses in King County was built and the average prices was explored with a scatterplot.
+The relationship between the year houses in King County was built and the average prices was explored with a scatterplot.
 ![Scatterplot](https://user-images.githubusercontent.com/67676957/131930992-790076ee-269d-4b0c-a017-f1a2c92e7c98.png)
+
+The trend from our scatterplot shows that there is association between the price of house in King County and the year in which it was built. While houses with the highest prices are either the oldest or the newest, houses built between 1930 and 1975 have the lowest prices.
+
+This insight raises the following questions which are out of the scope of this project but are worth exploring?
+* Could the high price of houses built in the early 1900s be attributable to their historical significance or technology used in their construction? Were these houses maintained better than other houses constructed in other periods of time?
+* Did the great depression and the second world war have any influence on the houses built between 1930 and 1975 or did the owners fail to carry out proper maintenance?
