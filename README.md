@@ -8,7 +8,7 @@ https://www.kaggle.com/harlfoxem/housesalesprediction/download
 Also, I have uploaded a copy called ["kc_house_data"](https://github.com/johnowusuduah/CloudSQL/blob/main/kc_house_data.csv) into this repository.
 
 ## Demonstration Video
-A succinct demonstration video can be found [here]
+A succinct demonstration video can be found [here](https://www.youtube.com/watch?v=IQPH0z9tD1U)
 
 ### Alternatively,
 
